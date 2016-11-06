@@ -14,4 +14,4 @@ for profile in `env | egrep _AWS_ACCESS_KEY_ID | cut -f1 -d_`; do
 	done
 done
 
-exec $@
+exec "$@"
